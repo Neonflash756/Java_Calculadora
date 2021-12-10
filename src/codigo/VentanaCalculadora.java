@@ -213,43 +213,93 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Boton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton7ActionPerformed
-       Pantalla.setText("7");
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("7");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton7ActionPerformed
 
     private void Boton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton8ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("8");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton8ActionPerformed
 
     private void Boton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton9ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("9");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton9ActionPerformed
 
     private void Boton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton4ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("4");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton4ActionPerformed
 
     private void Boton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton5ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("5");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton5ActionPerformed
 
     private void Boton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton6ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("6");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton6ActionPerformed
 
     private void Boton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton3ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("3");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton3ActionPerformed
 
     private void Boton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton1ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("1");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton1ActionPerformed
 
     private void Boton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton2ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("2");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton2ActionPerformed
 
     private void Boton0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Boton0ActionPerformed
-        // TODO add your handling code here:
+        String auxiliar = Pantalla.getText();
+        if (auxiliar.equals("0")) {
+            Pantalla.setText("0");
+        } else {
+            Pantalla.setText(auxiliar + "7");
+        }
     }//GEN-LAST:event_Boton0ActionPerformed
 
     /**

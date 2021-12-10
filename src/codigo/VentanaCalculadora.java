@@ -41,6 +41,12 @@ public class VentanaCalculadora extends javax.swing.JFrame {
         Boton0 = new javax.swing.JButton();
         Suma = new javax.swing.JButton();
         Igual = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jButton6 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setForeground(java.awt.Color.orange);
@@ -51,7 +57,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
         Pantalla.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         Pantalla.setText("0");
         Pantalla.setOpaque(true);
-        getContentPane().add(Pantalla, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 369, 77));
+        getContentPane().add(Pantalla, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 11, 240, 77));
 
         Boton9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton9.setText("9");
@@ -62,7 +68,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton9ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(174, 114, 64, 64));
+        getContentPane().add(Boton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 180, -1, 47));
 
         Boton8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton8.setText("8");
@@ -73,18 +79,18 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton8ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 114, 64, 64));
+        getContentPane().add(Boton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 180, -1, 47));
 
         Boton7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton7.setText("7");
-        Boton7.setMaximumSize(new java.awt.Dimension(64, 64));
-        Boton7.setMinimumSize(new java.awt.Dimension(64, 64));
+        Boton7.setMaximumSize(new java.awt.Dimension(50, 50));
+        Boton7.setMinimumSize(new java.awt.Dimension(50, 50));
         Boton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Boton7ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 114, 64, 64));
+        getContentPane().add(Boton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, -1, 47));
 
         Boton6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton6.setText("6");
@@ -95,7 +101,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton6ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(174, 196, 64, 64));
+        getContentPane().add(Boton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 240, -1, 47));
 
         Boton5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton5.setText("5");
@@ -106,7 +112,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton5ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 196, 64, 64));
+        getContentPane().add(Boton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, -1, 47));
 
         Boton4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton4.setText("4");
@@ -117,7 +123,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton4ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 196, 64, 64));
+        getContentPane().add(Boton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, -1, 47));
 
         Boton3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton3.setText("3");
@@ -128,7 +134,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton3ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(174, 283, 64, 64));
+        getContentPane().add(Boton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 300, -1, 47));
 
         Boton2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton2.setText("2");
@@ -139,7 +145,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton2ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(92, 283, 64, 64));
+        getContentPane().add(Boton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 300, -1, 47));
 
         Boton1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton1.setText("1");
@@ -150,7 +156,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 283, 64, 64));
+        getContentPane().add(Boton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, -1, 47));
 
         Boton0.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Boton0.setText("0");
@@ -161,9 +167,9 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 Boton0ActionPerformed(evt);
             }
         });
-        getContentPane().add(Boton0, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 360, 64, 64));
+        getContentPane().add(Boton0, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, -1, 47));
 
-        Suma.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        Suma.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Suma.setText("+");
         Suma.setMaximumSize(new java.awt.Dimension(64, 64));
         Suma.setMinimumSize(new java.awt.Dimension(64, 64));
@@ -172,16 +178,44 @@ public class VentanaCalculadora extends javax.swing.JFrame {
                 SumaActionPerformed(evt);
             }
         });
-        getContentPane().add(Suma, new org.netbeans.lib.awtextra.AbsoluteConstraints(256, 114, 70, 70));
+        getContentPane().add(Suma, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 300, -1, 47));
 
-        Igual.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
+        Igual.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         Igual.setText("=");
         Igual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 IgualActionPerformed(evt);
             }
         });
-        getContentPane().add(Igual, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 150, 60));
+        getContentPane().add(Igual, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 360, 105, 47));
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton1.setText("-");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 240, 45, 47));
+
+        jButton2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton2.setText("*");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 180, 45, 47));
+
+        jButton5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton5.setText(",");
+        getContentPane().add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 45, 47));
+
+        jButton6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton6.setText("/");
+        getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, 45, 47));
+
+        jButton7.setFont(new java.awt.Font("Tahoma", 0, 8)); // NOI18N
+        getContentPane().add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 120, 45, 47));
+
+        jButton8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jButton8.setText("c");
+        getContentPane().add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 120, 45, 47));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -293,6 +327,10 @@ public class VentanaCalculadora extends javax.swing.JFrame {
         Pantalla.setText(""+operando1);
     }//GEN-LAST:event_IgualActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -342,5 +380,11 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     private javax.swing.JButton Igual;
     private javax.swing.JLabel Pantalla;
     private javax.swing.JButton Suma;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
     // End of variables declaration//GEN-END:variables
 }
